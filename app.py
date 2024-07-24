@@ -110,3 +110,8 @@ except KeyError as e:
     st.error(f"Error al leer los datos: {e}. Por favor, verifica que los nombres de las columnas en el archivo Excel coincidan con los esperados ('Descripción del Concepto', 'Fecha', 'Datos').")
 except Exception as e:
     st.error(f"Ocurrió un error inesperado: {e}")
+
+# Pie de página en la barra lateral
+st.sidebar.write("© 2024 Todos los derechos reservados")
+st.sidebar.write("© 2024 Creado por: Javier Horacio Pérez Ricárdez")
+st.sidebar.write("PensionISSSTE: Analista UEAP B")
