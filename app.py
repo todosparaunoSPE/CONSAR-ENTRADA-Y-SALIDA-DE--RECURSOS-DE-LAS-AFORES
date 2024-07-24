@@ -48,8 +48,8 @@ Si tienes algún problema, asegúrate de que el archivo 'Entrada y salida de rec
 """)
 
 # Pie de página en la barra lateral
-st.sidebar.write("© 2024 Todos los derechos reservados")
-st.sidebar.write("© 2024 jahoperi")
+#st.sidebar.write("© 2024 Todos los derechos reservados")
+#st.sidebar.write("© 2024 jahoperi")
 
 # Mostrar el DataFrame de las hojas y sus descripciones
 st.write("Hojas disponibles y sus descripciones:")
